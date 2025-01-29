@@ -21,13 +21,13 @@ FORCE_SUB = os.environ.get("FORCE_SUB", "VJ_Botz")
 
 DB_NAME = os.environ.get("DB_NAME", "renamevjbot")     
 
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://itavnechalim:YJV38o9d0rdDQJ3S@cluster0.")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://itavnechalim:YJV38o9d0rdDQJ3S@cluster0.rhdfk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
 FLOOD = int(os.environ.get("FLOOD", "10"))
 
 START_PIC = os.environ.get("START_PIC", "https://te.legra.ph/file/119729ea3cdce4fefb6a1.jpg")
 
-ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5716289122').split()]
+ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5716289122 6832237076').split()]
 
 PORT = os.environ.get("PORT", "8080")
 
